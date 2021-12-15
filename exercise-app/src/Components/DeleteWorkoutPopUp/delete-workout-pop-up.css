@@ -1,0 +1,125 @@
+@media all and (max-width:500px){
+    .pop__up__container{
+        height: 280px;
+        width: 350px;
+        background-color: darkgray;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        border-radius: 9px; 
+        box-shadow: 20px 20px 20px gray; 
+    }
+    .delete__confirmation{
+        height: 40%;
+        width: 90%;
+        display: flex;
+        text-align: center;  
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;       
+    }
+    .delete__icon__container{
+        height: 100%;
+        width: 35%;
+        font-size: 35px;
+        margin-top: 10px;
+        color: #137a96;
+
+    }
+    .delete__popup__text{
+        height: 100%;
+        width :100%;
+    }
+    .delete__title{
+        height: 20px;
+        width: 100%;
+        text-align: left;
+        font-size: 17px;
+        font-weight:bold;
+        margin-bottom: 5px;
+        color: #137a96;
+    }
+    .delete__description{
+        height: 100%;
+        width: 100%;
+        text-align: left;
+        font-size: 13px;
+        color: white;
+    }
+    .delete__description > *{
+        margin-top: 5px
+    }
+    .delete__buttons > .cancel__button{
+        background-color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .delete__buttons > .delete__button{
+        background-color: #137a96;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+
+    }
+}
+
+@media all and (min-width:501px){
+    .pop__up__container{
+        height: 280px;
+        width: 350px;
+        background-color: darkgray;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 215px;
+        left: 70px;
+        right: 0;
+        text-align: center;
+        border-radius: 9px; 
+        box-shadow: 20px 20px 20px #888888; 
+    }
+    .delete__confirmation{
+        height: 40%;
+        width: 90%;
+        display: flex;
+        text-align: center;  
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;       
+    }
+    .delete__icon__container{
+        height: 100%;
+        width: 35%;
+        font-size: 35px;
+        margin-top: 10px;
+        color: #137a96;
+
+    }
+    .delete__popup__text{
+        height: 100%;
+        width :100%;
+    }
+    .delete__title{
+        height: 20px;
+        width: 100%;
+        text-align: left;
+        font-size: 17px;
+        font-weight:bold;
+        margin-bottom: 5px;
+        color: #137a96;
+    }
+    .delete__description{
+        height: 100%;
+        width: 100%;
+        text-align: left;
+        font-size: 13px;
+    }
+    .delete__description > *{
+        margin-top: 5px;
+    } 
+
+}

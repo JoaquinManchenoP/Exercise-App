@@ -1,0 +1,22 @@
+
+
+@media all and (max-width: 500px){
+    .home__page{
+        margin-bottom: 12px;
+        display: inline-block;
+        margin-left:13px;
+    }
+}
+
+@media all and (min-width: 501px){
+    .home__page{
+        display: inline-block;
+        margin-bottom: 12px;
+        padding-left:45px;  
+    }
+}
+
+
+
+
+

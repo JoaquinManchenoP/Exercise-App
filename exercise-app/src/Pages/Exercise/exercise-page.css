@@ -1,0 +1,292 @@
+/* Mobile size screen */
+@media all and (max-width:500px){
+    .workout__top__section{
+        margin-bottom:20px;
+    }
+    .workout_top__section__content{
+        height:185px;
+        width:100%;
+        display:flex;
+        text-align:center
+    }
+    .workout__type__icon{
+        height:80%;
+        width:28%;
+        background-color:#137a96;
+        margin:auto;
+        border-radius: 9px;
+        text-align: center; 
+        font-size:80px;
+        box-shadow: 3px 4px 6px #888888;
+    }
+    .workout__type{
+        color:white;
+        margin-top: 25px;    
+    }
+    .edit__workout__button__container{
+        height:80%;
+        width:28%;
+        background-color: white;
+        margin:auto;
+        border-radius: 9px;
+        box-shadow: 3px 4px 6px #888888;
+    }
+    .edit__workout__button{
+        color:#137a96;
+        font-size:80px;
+        margin-top: 31px;
+    }
+    .delete__workout__container{
+        height:80%;
+        width:28%;
+        background-color: white;
+        margin:auto;
+        border-radius: 9px;
+        box-shadow: 3px 4px 6px #888888; 
+    }
+    .delete__workout__button{
+        color:#137a96;
+        font-size:85px;
+        margin-top: 31px; 
+    }
+    .exercise_page__container{
+        margin-top:20px;
+    }
+    .exercise__page__title {
+        color:#137a96;
+        font-size: 30px;
+        font-weight: bold; 
+    }
+    .exercise__title__section > *{
+           margin-bottom:8px;
+    }
+    .exercise__page__subtitle{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .exercise__information__section{
+        height: 100vh;
+        width: 100%;
+        margin-bottom: 12px;
+        display: inline-block;
+    }
+    .exercise__information__section > *{
+        margin:30px 20px;
+        color: #137a96;   
+        font-size: 15px;
+        border-bottom:solid;
+        border-width: thin;
+    }
+    .exercise__details__header{
+        margin-top:35px;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .exercise__type{
+        display: flex;
+        justify-content: space-between;
+    }
+    .exercise__type__input{
+        display: flex;
+    }
+    .exercise__type__input > *{
+        margin-right:10px;
+    }
+    .exercise__type__input > input{
+        height: 16px;
+        width: 85px;
+        border-radius:6px;
+        border-width: thin;
+    }
+
+    .weight__input > input{
+        height: 16px;
+        width: 32px;
+        border-radius:6px;
+        border-width: thin;
+    }
+    .weight__input > *{
+        margin-right: 10px;
+    }
+    .weight__input {
+        display: flex;
+    }
+    
+    .exercise__weight{
+        display: flex;
+        justify-content: space-between; 
+    }
+    .exercise__sets{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sets__input{
+        display: flex;   
+    }
+    .sets__input > * {
+        margin-right:10px;
+    }
+    .sets__input > input {
+        margin-right:10px;
+        height: 16px;
+        width: 32px;
+        border-radius:6px;
+        border-width: thin;
+    }
+    
+    .exercise__reps{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .exercise__reps > * {
+          margin-right: 10px;
+    } 
+    .reps__input {
+        display: flex;
+        
+  } 
+    .reps__input > input {
+        height: 16px;
+        width: 32px;
+        border-radius:6px;
+        border-width: thin;
+        margin-right: 10px;
+    }   
+    .exercise__duration{
+        display: flex;
+        justify-content: space-between; 
+    } 
+    .duration__input > input{
+        height: 16px;
+        width: 32px;
+        border-radius:6px;
+        border-width: thin;
+    }
+    .duration__input > *{
+        margin-right: 10px;
+    }
+    .duration__input {
+        display: flex;
+    }
+}
+
+/* Desktop- tablet size screen */
+@media all and (min-width:501px){
+    .exercise_page__container{
+        margin-top:20px;
+    }
+    .exercise__page__title {
+        color:#137a96;
+        font-size: 30px;
+        font-weight: bold; 
+    }
+    .exercise__title__section > *{
+           margin-bottom:8px;
+    }
+    .exercise__page__subtitle{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .exercise__information__section{
+        height: 100vh;
+        width: 100%;
+        margin-bottom: 12px;
+        display: inline-block;
+    }
+    .exercise__information__section > *{
+        margin:45px 20px;
+        color: #137a96;   
+        font-size: 20px;
+        border-bottom:solid;
+        border-width: thin;
+    }
+    .exercise__detais__header{
+        margin-top:35px;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .exercise__type{
+        display: flex;
+        justify-content: space-between;
+    }
+    .exercise__type__input{
+        display: flex;
+    }
+    .exercise__type__input > *{
+        margin-right:10px;
+    }
+    .exercise__type__input > input{
+        height: 16px;
+        width: 85px;
+        border-radius:6px;
+        border-width: thin;
+    }
+    .weight__input > input{
+        height: 16px;
+        width: 32px;
+        border-radius:6px;
+        border-width: thin;
+    }
+    .weight__input > *{
+        margin-right: 10px;
+    }
+    .weight__input {
+        display: flex;
+    }
+    .exercise__weight{
+        display: flex;
+        justify-content: space-between; 
+    }
+    .exercise__sets{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sets__input{
+        display: flex;   
+    }
+    .sets__input > * {
+        margin-right:10px;
+    }
+    .sets__input > input {
+        margin-right:10px;
+        height: 16px;
+        width: 32px;
+        border-radius:6px;
+        border-width: thin;
+    }
+    .exercise__reps{
+        display: flex;
+        justify-content: space-between; 
+    }
+    .exercise__reps > * {
+        margin-right: 10px;
+    } 
+    .reps__input {
+        display: flex;
+    } 
+    .reps__input > input {
+        height: 16px;
+        width: 32px;
+        border-radius:6px;
+        border-width: thin;
+        margin-right: 10px;
+    }  
+    .exercise__duration{
+        display: flex;
+        justify-content: space-between; 
+    } 
+    .duration__input > input{
+        height: 16px;
+        width: 32px;
+        border-radius:6px;
+        border-width: thin;
+    }
+    .duration__input > *{
+        margin-right: 10px;
+    }
+    .duration__input {
+        display: flex;
+    }
+}
+

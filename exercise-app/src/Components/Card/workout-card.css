@@ -1,0 +1,97 @@
+
+@media all and (max-width: 500px) {
+    .exercise__card{
+        height: 120px;
+        width: 84vw;
+        background-color:#137a96;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 9px;
+        display: flex;
+        padding: 10px;
+        box-shadow: 3px 4px 6px #888888;
+        margin-bottom: 25px;
+        text-align:center;
+        
+    }
+    .card__exercise__icon{
+        font-size: 70px;
+        color:white;  
+    }
+    .card__content{
+     display: flex;
+     margin-left: 13px;
+     margin-right: auto;
+     margin-top: 21px;
+     margin-bottom: auto;
+    }
+
+    .arrow__button{
+        font-size: 30px;
+        margin-left: 35px;
+        margin-top: 20px;
+        color:white;
+    }
+    .exercise__text{
+        margin: 10px 12px ;
+        padding-right: 20px;
+    }
+    
+    .title{
+        margin-bottom: 4px;
+        padding-left: 0px;
+        color:white; 
+    }
+    
+
+    .exercise__subtitle{
+        margin-right:35px;
+        color:white; 
+    }  
+}
+
+@media all and (min-width: 501px) {
+    .exercise__card{
+        height: 140px;
+        width: 420px;
+        background-color:#137a96;
+        display: flex; 
+        border-radius: 9px;
+        padding: 10px;
+        box-shadow: 3px 4px 6px #888888;
+        margin-bottom: 25px;
+    }
+    .card__exercise__icon{
+        font-size: 70px;
+        color:white;
+        
+    }
+    .title{
+        margin-bottom: 4px;
+        color:white;
+        margin-right:20px; 
+    }
+    
+    .card__content{
+        display: flex;
+        margin-left: 10px;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: auto;
+    }
+    .arrow__button{
+        font-size: 30px;
+        margin-left: 55px;
+        margin-top: 20px;
+        color:white;
+    }
+    .exercise__text{
+        margin: 10px 40px 0px;
+    }
+    .exercise__subtitle{
+        padding-left: 18px;
+        color:white; 
+    }
+    
+}
+

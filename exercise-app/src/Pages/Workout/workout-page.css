@@ -1,0 +1,198 @@
+/* Mobile screen size */
+@media all and (max-width: 500px){
+    .workout__top__section{
+        margin-bottom:20px;
+    }
+    .workout_top__section__content{
+        height:185px;
+        width:100%;
+        display:flex;
+        text-align:center
+    }
+    .workout__type__icon{
+        height:80%;
+        width:28%;
+        background-color:#137a96;
+        margin:auto;
+        border-radius: 9px;
+        text-align: center; 
+        font-size:80px;
+        box-shadow: 3px 4px 6px #888888;
+    }
+    .workout__type{
+        color:white;
+        margin-top: 25px;    
+    }
+    .edit__workout__button__container{
+        height:80%;
+        width:28%;
+        background-color: white;
+        margin:auto;
+        border-radius: 9px;
+        box-shadow: 3px 4px 6px #888888;
+    }
+    .edit__workout__button{
+        color:#137a96;
+        font-size:80px;
+        margin-top: 31px;
+    }
+    .delete__workout__container{
+        height:80%;
+        width:28%;
+        background-color: white;
+        margin:auto;
+        border-radius: 9px;
+        box-shadow: 3px 4px 6px #888888; 
+    }
+    .delete__workout__button{
+        color:#137a96;
+        font-size:85px;
+        margin-top: 31px; 
+    }
+    
+    .title__section > *{
+        margin-bottom:8px;
+    }
+
+    .workout__page__title {
+     color:#137a96;
+     font-size: 30px;
+     font-weight: bold; 
+    }
+    .workout__name__subtitle{
+        font-size: 20px;
+        font-weight: lighter;
+        display: flex;
+        justify-content: space-between;
+    }
+    .workout__type__subtitle{
+        font-size: 20px;
+        font-weight: lighter;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .exercises__title{
+        margin-top:20px;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    
+    .workout__details__section{
+        height: 100vh;
+        width: 100%;
+        margin-bottom: 12px;
+        display: inline-block;
+    }
+
+    /* Edit workout section  */
+    .edit__workout__name__section{
+        display: flex;
+        margin-right: 10px;;
+    }
+    .edit__workout__name__section > *{
+        margin-right: 12px;
+    }
+    .edit__workout__name__section > input{
+        border-radius: 8px;
+        border-width: thin;
+        height: 22px;
+    }
+
+    
+}
+
+/* Desktop screen size */
+
+@media all and (min-width: 501px){
+    .workout_top__section__content{
+        height:185px;
+        width:100%;
+    }
+    .workout_top__section__content{
+        display:flex;
+        text-align:center
+    }
+
+    .workout__type__icon{
+        height:80%;
+        width:28%;
+        background-color:#137a96;
+        margin:auto;
+        border-radius: 9px;
+        text-align: center; 
+        font-size:80px;
+        box-shadow: 3px 4px 6px #888888;
+    }
+    .workout__type{
+        color:white;
+        margin-top: 25px;    
+    }
+   
+    .edit__workout__button__container{
+        height:80%;
+        width:28%;
+        background-color: white;
+        margin:auto;
+        border-radius: 9px;
+        box-shadow: 3px 4px 6px #888888;
+    }
+
+    .edit__workout__button{
+        color:#137a96;
+        font-size:80px;
+        margin-top: 31px;
+    }
+    .delete__workout__container{
+        height:80%;
+        width:28%;
+        background-color: white;
+        margin:auto;
+        border-radius: 9px;
+        box-shadow: 3px 4px 6px #888888; 
+    }
+    .delete__workout__button{
+        color:#137a96;
+        font-size:85px;
+        margin-top: 31px; 
+    }
+    .title__section > *{
+        margin:20px 0px;
+    }
+
+    .workout__page__title {
+     color:#137a96;
+     font-size: 30px;
+     font-weight: bold; 
+    }
+    .workout__name__subtitle{
+        font-size: 20px;
+        font-weight: lighter;
+        display: flex;
+        justify-content: space-between;
+    }
+    .exercises__title{
+        margin-top:20px;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .workout__type__subtitle{
+        font-size: 20px;
+        font-weight: lighter;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .edit__workout__name__section{
+        display: flex;
+        margin-right: 10px;;
+    }
+    .edit__workout__name__section > *{
+        margin-right: 12px;
+    }
+    .edit__workout__name__section > input{
+        border-radius: 8px;
+        border-width: thin;
+        height: 22px;
+    }
+}

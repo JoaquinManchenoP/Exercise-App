@@ -1,0 +1,127 @@
+@media all and (max-width:500px){
+    .login__page{
+        height:100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login__page__content{
+        height: 75%;
+        width: 70%;
+    }
+    .greeting__section{
+        height:33%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login__input__section{
+        height: 33%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .user__input {
+        display: flex;
+        flex-direction: column;
+    }
+    .user__input > * {
+        margin: 12px;
+        height: 30px;
+        width: 250px;
+        border-radius: 7px;
+        border-width: thin;
+    }
+    .button__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button__section > *{
+        margin-bottom: 25px;
+    }
+    .login__button{
+        height: 35px;
+        width: 220px;
+        background-color: blueviolet;
+        border-radius: 9px;
+        color: white;
+        background-color:#137a96;
+    }
+    .register__button{
+        height: 35px;
+        width: 220px;
+        border-radius: 9px;
+        color: #137a96;  
+        background-color: white;
+        border-width: thin;
+    }
+    
+}
+
+@media all and (min-width:501px){
+    .login__page{
+        height:100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login__page__content{
+        height: 75%;
+        width: 70%;
+    }
+    .greeting__section{
+        height:33%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login__input__section{
+        height: 33%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .user__input {
+        display: flex;
+        flex-direction: column;
+    }
+    .user__input > * {
+        margin: 12px;
+        height: 25px;
+        width: 250px;
+        border-width: thin;
+    }
+    .button__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button__section > *{
+        margin-bottom: 25px;
+    }
+    .login__button{
+        height: 35px;
+        width: 220px;
+        background-color: blueviolet;
+        border-radius: 9px;
+        color: white;
+        background-color:#137a96;
+    }
+    .register__button{
+        height: 35px;
+        width: 220px;
+        border-radius: 9px;
+        color: #137a96;  
+        background-color: white;
+        border-width: thin;
+    }
+}
